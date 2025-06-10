@@ -6,7 +6,7 @@ const config: Knex.Config = {
         host: 'localhost',
         user: 'root',
         password: '12345678',
-        database: 'assignment_crud',
+        database: 'tt_db',
         port: 3307,
     },
     migrations: {
