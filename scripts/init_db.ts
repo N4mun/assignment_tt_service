@@ -26,7 +26,7 @@ async function run() {
         updated_at timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
         PRIMARY KEY (user_id),
         UNIQUE KEY users_user_email_unique (user_email)
-    ) ENGINE=InnoDB AUTO_INCREMENT=61 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+    ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
     `);
 
     console.log('Table "users" ensured.');
