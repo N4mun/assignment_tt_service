@@ -26,7 +26,8 @@ This project is a TypeScript-based Express application for managing user data. I
 4. **Initialize the Database**:
    - Run the initialization script to create the database and tables:
    ```bash
-   npm run init_db
+   npm install -D ts-node typescript
+   npx ts-node scripts/init_db.ts
    ```
 
 5. **Run the Application**:
